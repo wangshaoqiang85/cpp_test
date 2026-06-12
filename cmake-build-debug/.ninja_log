@@ -1,3 +1,7 @@
 # ninja log v5
-1	661	8020415109250336	CMakeFiles/cppTest.dir/main.cpp.obj	2eacd3f84bb554af
-664	835	8020415110940376	cppTest.exe	9c22dd10b75581c5
+3	372	8027299380729268	CMakeFiles/cppTest.dir/main.cpp.obj	2eacd3f84bb554af
+373	532	8027299382299250	cppTest.exe	d7613538b2f2f44b
+3	924	8027298811647993	CMakeFiles/cppTest.dir/daily/Day002TwoNumbers.cpp.obj	e43d8bf3064ce8cb
+49	465	8023039903592402	CMakeFiles/cppTest.dir/daily/day003lengthOfLongestSubstring.cpp.obj	730e981d5734ad53
+6	616	8029808845687931	build.ninja	5ba3fa46155fb30e
+2	798	8029808845687931	build.ninja	5ba3fa46155fb30e

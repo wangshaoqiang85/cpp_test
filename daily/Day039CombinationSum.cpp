@@ -1,0 +1,29 @@
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+class Solution {
+public:
+    vector<vector<int>> combinatiomSum(vector<int>& candidates, int target) {
+        sort(candidates.begin(), candidates.end());
+        vector<vector<int>> result;
+        vector<int> cur;
+        helper(candidates, 0, target, cur, result);
+        return result;
+    }
+
+    void helper(vector<int>& candidates, int start, int target,
+        vector<int>& cur, vector<vector<int>>& result) {
+        if (target == 0) {
+            result.push_back(cur);
+            return;
+        }
+        for(int i = start; i < candidates.size(); i++) {
+            if (candidates[i] > target) break;
+            cur.push_back(candidates[i]);
+            helper(candidates, i, target - candidates[i], cur, result);
+            cur.pop_back();
+        }
+    }
+};
