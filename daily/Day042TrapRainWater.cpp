@@ -5,7 +5,7 @@
 using namespace std;
 
 class Solution {
-public:
+public:。，、m
     int trap(vector<int>& height) {
         stack<int> stk;
         int ans = 0;
