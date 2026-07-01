@@ -3,6 +3,6 @@ project(cppTest)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(cppTest main.cpp
-        daily/Day049GroupAnagrams.cpp
+add_executable(cppTest
+        daily/Day052PartitionList.cpp
 )
